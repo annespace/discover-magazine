@@ -1,0 +1,40 @@
+/* RESET TO CUSTOM SPACES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE SECTIONS */
+body {
+  color: #222;
+  font-family: sans-serif;
+}
+
+/* CENTER THE PAGE */
+.firstcontainer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.secondcontainer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 60px;
+  /* we changed nav a:link from inline to inline-block.
+so, don't set a fixed height on elements. */
+}
+
+nav {
+  padding: 13px 0;
+  border-bottom: #222 solid 2px;
+}
+
+/* SMALLER ELEMENTS */
+h1 {
+  text-transform: uppercase;
+  padding: 15px 0;
+  border-bottom: #222 solid 1px;
+}
