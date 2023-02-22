@@ -33,6 +33,15 @@ h1 {
   border-bottom: #222 solid 1px;
 }
 
+/*
+pseudo classes are written with one colon, 
+pseudo elements are with two colons.
+*/
+h1::first-letter {
+  font-style: italic;
+  padding-right: 4px;
+}
+
 h1 a:link {
   text-decoration: none;
 }
@@ -127,6 +136,17 @@ h3 {
   margin-bottom: 2.5px;
 }
 
+.main-img {
+  margin-bottom: 15px;
+}
+
+.credit {
+  color: #777;
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -135,6 +155,7 @@ p {
 
 h4 {
   font-size: 32px;
+  margin-bottom: 15px;
 }
 
 li {
@@ -158,10 +179,20 @@ aside li {
 }
 
 aside img {
-  max-width: 150px;
+  max-width: 20%;
 }
 
 aside li:last-child {
   font-size: 12px;
   margin-bottom: 0px;
 }
+
+/* 
+Misconception:
+this selector should have selected the first p element inside of the article. 
+HOWEVER, the first-child of article is actually header. 
+so this won't work!
+article p:first-child {
+  color: red;
+}
+*/
