@@ -26,6 +26,30 @@ header {
 so, don't set a fixed height on elements. */
 }
 
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  border-bottom: #222 solid 1px;
+}
+
+/* LVHA */
+h1 a:link {
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: #000;
+}
+
+h1 a:hover {
+  color: #000;
+}
+
+h1 a:active {
+  color: #777;
+}
+
 nav {
   padding: 15px 0;
   font-size: 18px;
@@ -51,14 +75,6 @@ nav a:hover {
 
 nav a:active {
   color: #777;
-}
-/* LVHA */
-
-h1 {
-  font-size: 36px;
-  text-transform: uppercase;
-  padding: 20px 0;
-  border-bottom: #222 solid 1px;
 }
 
 h2 {
