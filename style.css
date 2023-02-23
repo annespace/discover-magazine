@@ -70,6 +70,10 @@ nav a:link {
   text-decoration: none;
 }
 
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 nav a:visited {
   color: #777;
 }
@@ -165,6 +169,7 @@ li {
 aside {
   border-left: 10px double;
   padding: 0 0 0 10px;
+  width: 500px; /*추후에 옆으로 보낼때 바꿔야하나?*/
 }
 
 h5 {
